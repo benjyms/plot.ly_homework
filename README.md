@@ -9,3 +9,7 @@ In this assignment, the student will build an interactive dashboard to explore a
 **Initial Steps:**
 
 Inital Repo for this homework assignment was created and requisite files were copied to the local repo to be pushed to the online repo.
+
+**Intial Coding for data reading:**
+
+Intial code to reach json records using D3.
