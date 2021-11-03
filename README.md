@@ -12,4 +12,4 @@ Inital Repo for this homework assignment was created and requisite files were co
 
 **Intial Coding for data reading:**
 
-Intial code to reach json records using D3.
+Intial code to read json records using D3.
