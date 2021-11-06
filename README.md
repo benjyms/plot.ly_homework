@@ -13,3 +13,9 @@ Inital Repo for this homework assignment was created and requisite files were co
 **Intial Coding for data reading:**
 
 Intial code to read json records using D3.
+
+Initial Horizontal Bar Chart and Bubble Charts Created
+
+Demographic Table populating with default data.
+
+Dropdown list created to show demographic information for each subject in the study
