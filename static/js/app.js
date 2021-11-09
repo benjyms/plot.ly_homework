@@ -42,16 +42,19 @@ function getPlots(id) {
         // console.log(sampledata)
         // console.log(id);
         
+        var resultArray = sampledata.samples.filter((idobject)=> idobject.id == id);
+        var result = resultArray[0];
+
         // read the data for the plots
-        var sample_values = sampledata.samples[0].sample_values;
+        var sample_values = result.sample_values;
         // console.log(sample_values);
 
         // capture all id's for the plots
-        var otu_ids = sampledata.samples[0].otu_ids;
-        // console.log(otu_ids);
+        var otu_ids = result.otu_ids;
+        console.log(otu_ids);
 
         // capture all labels for the plots
-        var otu_labels = sampledata.samples[0].otu_labels;
+        var otu_labels = result.otu_labels;
         // console.log(otu_labels);
 
         // capture the top 10 otu_ids
@@ -95,7 +98,7 @@ function getPlots(id) {
     };
 
     // create the bar chart
-Plotly.newPlot("bar", data1, layout1);
+    Plotly.newPlot("bar", data1, layout1);
 
         // create the bubble chart
         var trace2 = {
